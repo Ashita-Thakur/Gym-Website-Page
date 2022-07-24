@@ -1,0 +1,669 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+body{
+    background-color: black;
+    background-image: url(./Images/image\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: 470px -1px;
+}
+.main{
+    display: flex;
+    margin-top: 2.5%;
+    margin-left: 7%;
+    color: #fff;
+}
+.links{
+    display: flex;
+}
+.main1{
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-right: 5%;
+}
+.logo{
+    font-weight: bold;
+    color: #fff;
+}
+.logo:hover{
+    color: rgb(190, 190, 3);
+}
+.links li{
+    font-size: 0.9rem;
+}
+.links li a:hover{
+    color: rgb(190, 190, 3);
+}
+.sideHeading{ 
+    margin-left: 32rem;
+    margin-top: 0.3rem;
+    margin-right: 7%; 
+}
+.links a{
+    padding:2rem;
+    color: rgb(212, 211, 211);
+}
+#iconbar{
+    color: #fff;
+    font-size: 2rem;
+    position: absolute;
+    top:20px;
+    right: 20px;
+    opacity: 0;
+    visibility: hidden;
+}
+#iconbar:hover{
+    color: rgb(190, 190, 3);
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.link_heading2{
+    display: flex;
+    width: 18.5rem;
+    font-size: 0.72rem;
+    margin-left: 7%;
+    margin-top: 5rem;
+    background-color: rgb(32, 32, 32);
+    color: rgb(212, 211, 211);
+    border-radius: 1.95rem;
+    border: none;
+    padding: 0.15rem;
+    cursor: pointer;
+}
+.paar1{
+    margin-top: 0.35rem;
+    padding-left: 0.8rem; 
+    cursor: pointer;
+}
+.link_para1{
+    color: rgb(212, 211, 211);
+    cursor: pointer;
+}
+
+.btn1{
+    font-size: 0.6rem;
+    cursor: pointer;
+    border-radius: 0.9rem;
+    padding: 0.5rem;
+    background-color: #67a569;
+    color: rgb(221, 216, 216);
+    border: none;
+    width: 2.8rem;
+}
+.btn_maindiv{
+    display: flex;
+}
+.inside{
+    display: flex;
+}
+.content_main{
+    display: flex;   
+}
+.content1{
+    color: #fff;
+    font-size: 5rem;
+    margin-left: 7%;
+    width: 200%;
+    line-height: 180%;
+    word-spacing: 3%;
+}
+.para_inside{
+    margin-left: 8%;
+    color: rgb(158, 156, 156);
+    font-size: 0.9rem;
+    width: 55%;
+    margin-top: 1.7rem;
+    line-height: 1.9rem;
+}
+#btnPre{
+    background-color: #262726;
+    color: #fff;
+}
+#btnPre:hover{
+    background-color: #121312;
+}
+.btn_preview{
+    cursor: pointer;
+    border-radius: 0.6rem;
+    padding: 15px 24px;
+    background-color: #393a39;
+    color: #fff;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 1rem;
+  font-size: 0.9rem;
+  font-weight: bold;
+  border: none;
+}
+.btn_getstarted{
+    cursor: pointer;
+    border-radius: 0.6rem;
+    padding: 15px 24px;
+    background-color: #0fb877;
+    border: none;
+    color: #fff;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 1rem;
+  font-size: 0.9rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+.btn_getstarted:hover{
+    background-color: #0c8053;
+}
+.btn_maindiv{
+     margin-left: 8%; 
+    margin-top: 1.7rem;
+}
+.time_para, .calories_para {
+    border-radius: 1.2rem;
+    padding: 1.2rem;
+    background-color: rgb(32, 32, 32);
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 50%;
+    cursor: pointer;
+}
+.calories_para:hover{
+    background-color: rgb(15, 15, 15);
+}
+.time_para:hover{
+    background-color: rgb(15, 15, 15);
+}
+.overlay{
+    margin-top: 4.2rem;
+    margin-right: 5rem;
+}
+.time_para1, .calories_para1 {
+    font-size: 2rem;
+    width: 8rem;
+    font-weight: 15rem;
+  
+}
+.calories_para1 {
+    font-weight:600;
+    margin-left: -0.9rem;
+    font-size: 2.5rem;
+    color: rgb(199, 4, 62)
+}
+.time_para1{
+    color: rgb(194, 226, 11);
+    font-size: 2.5rem;
+    font-weight:700;
+    margin-left: -0.1rem;
+}
+.time_para2{
+    margin-left: -3.8rem;
+}
+.calories_para2{
+    margin-left: 0.2rem;
+}
+.time_para2, .calories_para2 {
+    font-size: 0.8rem;
+    margin-top: 0.1rem;
+}
+.calories_para{
+   margin-top: 20px;
+}
+.Popular_Exercise1{
+    display: flex;
+    margin-top: 8rem;
+    margin-bottom: 2.5rem;
+}
+.Popular_Exercise{
+    
+    margin-top: 8rem;
+    margin-bottom: 2.5rem;
+}
+.Popular_heading{
+    margin-left: 7%; 
+    width: 30%;
+}
+.Popular_heading_inside{
+    font-size: 1.8rem;
+    color: rgb(241, 235, 235);
+    margin-left: -0.9rem;
+    margin-bottom: 0.8rem;
+}
+.more_Exercise{
+    margin-left: 32rem;
+    width: 30%;
+    margin-top: 1.4%
+}
+.para_inside_more{
+    font-size: 0.9rem;
+    color: rgb(170, 166, 166);
+}
+.info_main{
+    display: flex;
+    margin-top: 9.7rem; 
+}
+.box1{
+   width: 17.1rem;
+   height: 14rem;
+   margin-left: 7%; 
+   background-image: url(./Images/image\ 4.png);
+   box-shadow: #1b1b1b;
+    background-size:contain;
+    background-repeat: no-repeat;
+    border-radius: 0.8rem;
+    cursor: pointer;
+}
+.box1:hover{
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1.1);
+}
+.box2:hover{
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1.1);
+}
+.box3:hover{
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1.1);
+}
+.box4:hover{
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1.1);
+}
+.box5:hover{
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1.1);
+}
+.box6:hover{
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1.1);
+}
+.box2{
+    width: 17.1rem;
+    height: 14rem;
+    margin-left: 7%; 
+    background-image: url(./Images/image\ 7.png);
+    box-shadow: #1b1b1b;
+     background-size:contain;
+     background-repeat: no-repeat;
+     border-radius: 0.8rem;
+     cursor: pointer;
+ }
+ .box3{
+    width: 17.1rem;
+    height: 14rem;
+    margin-left: 7%; 
+    background-image: url(./Images/image\ 2.png);
+    box-shadow: #1b1b1b;
+     background-size:contain;
+     background-repeat: no-repeat;
+     border-radius: 0.8rem;
+     cursor: pointer;   
+ }
+ .box4{
+    width: 17.1rem;
+    height: 14rem;
+    margin-left: 7%; 
+    background-image: url(./Images/image\ 6.png);
+    box-shadow: #1b1b1b;
+     background-size:contain;
+     background-repeat: no-repeat;
+     border-radius: 0.8rem;
+     cursor: pointer;
+ }
+ .box5{
+    width: 17.1rem;
+    height: 14rem;
+    margin-left: 7%; 
+    background-image: url(./Images/image\ 6.png);
+    box-shadow: #1b1b1b;
+     background-size:contain;
+     background-repeat: no-repeat;
+     border-radius: 0.8rem;
+     cursor: pointer;
+         }
+
+ .box6{
+    width: 17.1rem;
+    height: 14rem;
+    margin-left: 7%; 
+    background-image: url(./Images/image\ 3.png);
+    box-shadow: #1b1b1b;
+     background-size:contain;
+     background-repeat: no-repeat;
+     border-radius: 0.8rem;
+     cursor: pointer;
+    }
+.image_box1{
+    border: 1px solid rgb(229, 255, 0);
+    width: 17rem;
+   height: 13rem;
+   border-radius: 0.9rem;   
+}
+.time1{
+    margin-left: 2.8rem;
+    padding: 2%;
+    height: 2.1rem;
+    background-color: black;
+    width: 25%;
+    border-radius: 0.5rem;
+}
+.info1{
+    font-size: 1.8rem;
+    margin-left: 1.5rem;
+    color: #fff;
+}
+.info_para1{
+    color: #fff;
+    text-align: center;
+}
+.time2{
+    margin-left: 1rem;
+}
+.time3{
+    margin-left: 7.1rem;
+}
+.time4{
+    margin-left: 3rem;
+}
+.time5{
+    margin-left: 5.1rem;
+}
+.time6{
+    margin-left: 4.1rem;
+}
+.info_Para2{
+    font-size: 0.7rem;
+    
+    color: rgb(179, 176, 176);
+}
+.conatainer, .conatainer2{
+    display: flex;
+    
+}
+.conatainer2{
+   margin-top: 3rem; 
+}
+.wrokout_section{
+    
+    margin-top: 3rem; 
+    background-color:#1b1b1b;
+    padding: 3rem;
+    display: flex;
+    height: 120%;    
+}
+.workout_prog{
+    width: 40%;
+    margin-left: 2%;
+    height: 200%;  
+}
+.workout_prog1{
+padding: 1rem;
+font-size: 6.7rem;
+font-weight: bolder;
+line-height: 110%;
+height: 150%;
+color: #fff;
+margin-bottom: 7rem;
+margin-left: 2rem;
+}
+.workout_rightside{
+    width: 50%;
+    padding: 1rem;
+    margin-left: 10%;
+    margin-top: 1.5%;
+    color: rgb(228, 220, 220);
+}
+.workout_rightside1{
+    width: 80%;
+    line-height: 200%;
+    font-size: 1.5rem;
+}
+.workoutbtn{
+    margin-top: 5%;
+}
+.btn2_workoutbtn1{
+    margin-top: 6%;
+    width: 12rem;
+    padding: 1.4rem;
+    font-size: 1.2rem;
+}
+.workout_prog{
+    background-image: url(./Images/patch.png);
+     background-repeat: no-repeat;
+     background-size: 100%; 
+     background-position: -1px 400px;
+  }
+ .info_main2{
+    display: flex;
+    margin-top: 11rem;  
+}
+.photoSection{
+    display: flex;
+    border: 1px rgb(250, 114, 227);
+}
+.imageS, .imagek, .imagej{
+    border: 1px rgb(225, 250, 114);
+}
+.Image_Samantha_William{
+    height: 19.5rem;
+    width: 30rem; 
+    margin: 0;
+    padding: 0;
+}
+.Image_Samantha_William:hover{
+    -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1.1);
+}
+.Image_Karen_Summer:hover{
+    -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1.1);
+}
+.Image_JonathanWIse:hover{
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1.1);
+}
+.Image_Karen_Summer{
+    height: 19.5rem;
+    width: 28rem;
+    margin: 0;
+    padding: 0;
+}
+.Image_JonathanWIse{
+    height: 19.5rem;
+    width: 28rem;
+    margin: 0;
+    padding: 0;
+}
+.nameS{
+    color: #fff;
+    margin-left: 9.8rem;
+    margin-top: 0.4rem;
+}
+.descriptions{
+    color: #fff;
+    margin-left: 12rem;
+}
+.descriptions1{
+    color: #fff;
+    margin-left: 12.9rem;
+}
+.imagek{
+    margin-left: -2rem;
+}
+.sample{
+    color: #4CAF50;
+}
+.arrowlink1{
+    color: #fff;
+    margin-left: 25.5rem;
+    font-size: 1.2rem;
+}
+.arrowlink1:hover{
+    color: rgb(182, 205, 50);
+}
+.arrowlink2{
+    margin-left: 23.5rem;
+}
+.arrowlink3{
+    margin-left: 31rem;
+}
+.arrowlink4{
+    margin-left: 27.5rem;
+}
+.arrowlink5{
+    margin-left: 28rem;
+}
+.arrowlink5{
+    margin-left: 30.5rem;
+}
+.workoutlist1{
+    display: flex;
+    margin-top: 8rem;
+}
+.workoutName1:hover{
+    color: rgb(182, 205, 50);
+}
+.Num01:hover{
+    color: rgb(182, 205, 50);
+}
+.Num01{
+    color: rgb(168, 164, 164);
+    font-weight: bolder;
+    font-size: 1.5rem;
+    margin-top: .5rem;
+    margin-left: 9rem;
+}
+.workoutName1{
+    cursor: pointer;
+    color: #fff;
+    margin-left: 15rem;
+    font-size: 3rem;
+    margin-top: -.8rem;
+}
+.workoutlist2{
+    margin-top: 2.8rem;
+}
+.video1{
+    margin-top: 0.6rem;
+    margin-left: 26rem;
+    color: rgb(168, 164, 164);
+    cursor: pointer;
+}
+.video1:hover{
+    color: rgb(182, 205, 50);
+}
+.hr_rule{
+    margin-top: 2.8rem;
+    width: 69.5rem;
+    margin-left: 8.5rem;
+    color: rgb(168, 164, 164);
+}
+.hr2{
+     border-top: 1px solid rgb(168, 164, 164);
+}
+.footer{
+    display: flex;
+    margin-top: 10.5rem;
+}
+.Num01{
+    color: rgb(168, 164, 164);
+    font-weight: bolder;
+    font-size: 1.5rem;
+    margin-top: .5rem;
+    margin-left: 9rem;
+}
+.heading_Footer{
+    color: #fff;
+}
+.footer_para{
+    margin-top: 1rem;
+    font-weight: 60;
+    font-size: medium;
+    line-height: 2rem;
+    width: 20rem;
+}
+.Footer_tags{
+color:rgb(240, 235, 235);
+font-size: medium;
+line-height: 5rem;
+}
+.footer_column2{
+    margin-top: -2rem;
+}
+
+@media(min-width:1200px){
+
+
+}
+
+@media(max-width:990px){
+.main1{
+    width: 100%;
+}
+.logo{
+    text-align: center;
+    width: 100%;
+}
+.sideHeading{
+    width: 100%;
+    text-align: left;
+}
+.links {
+     opacity: 0;
+     visibility: hidden;
+}
+#iconbar{
+    opacity: 1;
+    visibility: visible;
+}
+.sideHeading.responsive{
+    width: 80vh!important;
+    height: 80vh!important;
+    background-color: black;
+    position: relative;
+}
+.sideHeading.responsive.links{
+opacity: 1;
+visibility: visible;
+flex-direction: column;
+
+}
+.sideHeading.responsive ul li a{
+    flex-direction: column;
+    display: block;
+    text-align: center;
+    line-height: 100px;
+    }
+}
+
+@media(max-width:800px){
+
+
+}
+
+@media(max-width:600px){
+
+
+}
+@media(max-width:480px){
+
+
+}
+
